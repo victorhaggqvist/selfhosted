@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'selfont';
-  src: url('../font/selfont.eot?82103448');
-  src: url('../font/selfont.eot?82103448#iefix') format('embedded-opentype'),
-       url('../font/selfont.woff?82103448') format('woff'),
-       url('../font/selfont.ttf?82103448') format('truetype'),
-       url('../font/selfont.svg?82103448#selfont') format('svg');
+  src: url('../font/selfont.eot?75009243');
+  src: url('../font/selfont.eot?75009243#iefix') format('embedded-opentype'),
+       url('../font/selfont.woff?75009243') format('woff'),
+       url('../font/selfont.ttf?75009243') format('truetype'),
+       url('../font/selfont.svg?75009243#selfont') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -14,7 +14,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'selfont';
-    src: url('../font/selfont.svg?82103448#selfont') format('svg');
+    src: url('../font/selfont.svg?75009243#selfont') format('svg');
   }
 }
 */
@@ -53,4 +53,6 @@
 .icon-money:before { content: '\e800'; } /* '' */
 .icon-github-circled:before { content: '\e801'; } /* '' */
 .icon-wrench:before { content: '\e802'; } /* '' */
+.icon-ellipsis:before { content: '\e803'; } /* '' */
 .icon-users:before { content: '\e804'; } /* '' */
+.icon-minus:before { content: '\e805'; } /* '' */
