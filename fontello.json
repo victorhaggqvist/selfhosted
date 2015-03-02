@@ -1,0 +1,46 @@
+{
+  "name": "selfont",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "31972e4e9d080eaa796290349ae6c1fd",
+      "css": "users",
+      "code": 59396,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "861ab06e455e2de3232ebef67d60d708",
+      "css": "minus",
+      "code": 59397,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "5bb103cd29de77e0e06a52638527b575",
+      "css": "wrench",
+      "code": 59394,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "107ce08c7231097c7447d8f4d059b55f",
+      "css": "ellipsis",
+      "code": 59395,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "f279f25007794fa6837ff78fe94b216e",
+      "css": "money",
+      "code": 59392,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "0f6a2573a7b6df911ed199bb63717e27",
+      "css": "github-circled",
+      "code": 59393,
+      "src": "fontawesome"
+    }
+  ]
+}

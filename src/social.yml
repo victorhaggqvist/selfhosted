@@ -1,0 +1,7 @@
+name: Social Media
+apps:
+    - name: StatusNet (GNU Social)
+      url: https://gnu.io/social/
+      desc: Microblogg
+      oss: GPL
+      cost: 0

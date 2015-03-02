@@ -1,0 +1,13 @@
+{
+    "name": "snilius/selfhosted",
+    "require": {
+        "twig/twig": "~1.18",
+        "symfony/yaml": "3.0.*@dev"
+    },
+    "authors": [
+        {
+            "name": "Victor Häggqvist",
+            "email": "victor@snilius.com"
+        }
+    ]
+}

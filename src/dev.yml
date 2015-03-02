@@ -1,0 +1,19 @@
+name: Development Tools
+apps:
+    - name: Redmine
+      desc: Issues Tracker
+      url: http://www.redmine.org/
+      oss: GPL
+      cost: 0
+
+    - name: GitLab
+      desc: Version Control
+      url: https://about.gitlab.com/
+      oss: GPL
+      cost: 1
+
+    - name: Jenkins
+      desc: Continous Integration
+      url: http://jenkins-ci.org/
+      oss: MIT
+      cost: 0

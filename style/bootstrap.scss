@@ -1,0 +1,117 @@
+// Core variables and mixins
+@import "variables";
+
+//$icon-font-path: 'fonts/';
+
+@import "mixins";
+
+// Reset and dependencies
+@import "normalize";
+@import "print";
+//@import "glyphicons";
+
+@import "paper";
+
+// Core CSS
+@import "scaffolding";
+@import "type";
+@import "code";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+
+@import "paper";
+
+// Components
+@import "component-animations";
+@import "dropdowns";
+@import "button-groups";
+@import "input-groups";
+@import "navs";
+@import "navbar";
+@import "breadcrumbs";
+@import "pagination";
+@import "pager";
+@import "labels";
+@import "badges";
+@import "jumbotron";
+@import "thumbnails";
+@import "alerts";
+@import "progress-bars";
+@import "media";
+@import "list-group";
+@import "panels";
+@import "responsive-embed";
+@import "wells";
+@import "close";
+
+@import "paper";
+
+// Components w/ JavaScript
+@import "modals";
+@import "tooltip";
+@import "popovers";
+@import "carousel";
+
+// Utility classes
+@import "utilities";
+@import "responsive-utilities";
+
+body {
+  //padding-top: 100px;
+}
+
+@media (min-width: 1200px) {
+  .mainlane {
+    width: 850px;
+
+    .lead {
+      margin: 5% 12%;
+    }
+  }
+}
+
+.app-section {
+  margin-top: 60px;
+  &:first-of-type {
+    margin-top: 0;
+  }
+
+  img {
+    background-color: #999;
+    padding: 4px;
+    margin-right: 5px;
+    margin-top: -3px;
+    border-radius: 30px;
+  }
+
+  abbr {
+    border-bottom: 0;
+  }
+
+  td:first-child {
+    a {
+      color: $text-color;
+    }
+  }
+
+  //.table > thead > tr > th {
+  //  border-bottom: 2px solid $brand-success;
+  //}
+
+}
+
+.navbar-nav {
+  i {
+    font-size: 1.9em;
+  }
+
+  li > a {
+    display: flex;
+  }
+}
+
+footer {
+  margin-bottom: 100px;
+}

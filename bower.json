@@ -1,0 +1,19 @@
+{
+  "name": "selfhosted",
+  "version": "0.1.0",
+  "authors": [
+    "Victor Häggqvist <victor@snilius.com>"
+  ],
+  "license": "GPLv3",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.3"
+  }
+}

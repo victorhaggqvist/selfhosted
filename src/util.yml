@@ -1,0 +1,19 @@
+name: Utilities
+apps:
+    - name: ownCloud
+      url: https://owncloud.org/
+      desc: Cloud Storage
+      oss: GPL
+      cost: 0
+
+    - name: YOURLs
+      url: http://yourls.org/
+      desc: URL Shortener
+      oss: MIT
+      cost: 0
+
+    - name: Syncthing
+      url: http://syncthing.net/
+      desc: Cloud Sync
+      oss: GPL
+      cost: 0
