@@ -1,4 +1,4 @@
-name: Social Media
+name: Social
 apps:
     - name: StatusNet (GNU Social)
       url: https://gnu.io/social/
