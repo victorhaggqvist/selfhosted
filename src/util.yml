@@ -23,3 +23,9 @@ apps:
       desc: Feed reader and aggregator
       oss: GPL
       cost: 0
+
+    - name: Roundcube
+      url: http://roundcube.net/
+      desc: Webmail
+      oss: GPL
+      cost: 0
