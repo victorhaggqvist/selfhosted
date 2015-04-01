@@ -10,7 +10,7 @@
 @import "print";
 //@import "glyphicons";
 
-@import "paper";
+@import "_paper";
 
 // Core CSS
 @import "scaffolding";
@@ -21,7 +21,7 @@
 @import "forms";
 @import "buttons";
 
-@import "paper";
+@import "_paper";
 
 // Components
 @import "component-animations";
@@ -46,7 +46,7 @@
 @import "wells";
 @import "close";
 
-@import "paper";
+@import "_paper";
 
 // Components w/ JavaScript
 @import "modals";
