@@ -5,3 +5,9 @@ apps:
       desc: Microblogg
       oss: GPL
       cost: 0
+
+    - name: Jitsi
+      url: https://jitsi.org/
+      desc: Audio/video IM platform
+      oss: LGPL
+      cost: 0
