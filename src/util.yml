@@ -29,3 +29,9 @@ apps:
       desc: Webmail
       oss: GPL
       cost: 0
+
+    - name: Stringer
+      url: https://github.com/swanson/stringer
+      desc: A self-hosted RSS reader
+      oss: MIT
+      cost: 0
