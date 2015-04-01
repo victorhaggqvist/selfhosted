@@ -41,3 +41,9 @@ apps:
       desc: A collaborative text editor
       oss: GPL
       cost: 0
+    
+    - name: AeroFS
+      url: https://www.aerofs.com/
+      desc: Private Cloud
+      oss: # fix padlock icon
+      cost: 1
