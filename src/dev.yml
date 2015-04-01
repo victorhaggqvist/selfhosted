@@ -17,3 +17,9 @@ apps:
       url: http://jenkins-ci.org/
       oss: MIT
       cost: 0
+
+    - name: Piwik
+      desc: Web Analytics
+      url: http://piwik.org/
+      oss: GPL
+      cost: 1
