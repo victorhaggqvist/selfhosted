@@ -7,7 +7,7 @@ apps:
       cost: 0
 
     - name: GitLab
-      desc: Version Control
+      desc: Git repository management
       url: https://about.gitlab.com/
       oss: GPL
       cost: 1
