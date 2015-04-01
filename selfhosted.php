@@ -3,6 +3,7 @@
 use Symfony\Component\Yaml\Yaml;
 
 require_once 'vendor/autoload.php';
+require_once 'SortByFieldTwigExtension.php';
 
 /**
  * User: Victor Häggqvist
@@ -13,6 +14,9 @@ require_once 'vendor/autoload.php';
 $loader = new Twig_Loader_Filesystem(__DIR__.'/views');
 $twig = new Twig_Environment($loader);
 $twig->addGlobal('projectname','Selfhosted');
+//$filter = new Twig_SimpleFilter('sortbyfield', array('SortByFieldTwigExtension', 'sortByFieldFilter'));
+$twig->addExtension(new SortByFieldTwigExtension());
+
 
 $configFile = 'src/conf.yml';
 

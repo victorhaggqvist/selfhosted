@@ -10,15 +10,13 @@
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <!-- Place favicon.ico in the root directory -->
 
+  <!-- build:css -->
   <link rel="stylesheet" href="dist/css/bootstrap.css">
   <link rel="stylesheet" href="dist/css/selfont.css">
-  {#<link rel="stylesheet" href="dist/bootstrap.min.css">#}
-  {#<link rel="stylesheet" href="dist/paper.css">#}
+  <!-- endbuild -->
+
 </head>
 <body>
-<!--[if lt IE 8]>
-<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-<![endif]-->
 
   <nav class="navbar navbar-inverse">
     <div class="container mainlane">
@@ -34,7 +32,7 @@
       <div id="navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
           <li><a href="#about">About</a></li>
-          <li><a href="#definition">Definition</a></li>
+          <li><a href="#definition">Definition of Selfhosted</a></li>
         </ul>
         <ul class="nav navbar-nav pull-right">
           <li><a href="https://github.com/victorhaggqvist/selfhosted"><i class="icon-github-circled"></i>Contribute</a></li>
@@ -42,7 +40,6 @@
       </div><!--/.nav-collapse -->
     </div>
   </nav>
-
 
   <div class="container mainlane">
 
@@ -68,7 +65,8 @@
           </tr>
           </thead>
           <tbody>
-          {% for a in s.apps %}
+
+          {% for a in s.apps | sortbyfield('name') %}
             <tr>
               <td><img src="https://www.google.com/s2/u/0/favicons?domain={{ a.url }}" alt="{{ a.name }} icon"><a href="{{ a.url }}">{{ a.name }}</a></td>
               <td>{{ a.desc }}</td>
@@ -82,9 +80,9 @@
 
               <td>
                 {% if a.cost == 0 %}
-                  <abbr title="Free"><i class="icon-minus" aria-hidden="true"></i></abbr>
+                  <abbr title="Free"><i class="icon-leaf"></i></abbr>
                 {% elseif a.cost == 1 %}
-                  <abbr title="Freemium"><i class="icon-ellipsis" aria-hidden="true"></i></abbr>
+                  <abbr title="Freemium"><i class="icon-key" aria-hidden="true"></i></abbr>
                 {% elseif a.cost == 2 %}
                   <abbr title="Paid"><i class="icon-money"></i></abbr>
                 {% else %}
@@ -113,17 +111,14 @@
       <hr>
       <div class="row">
         <div class="col-md-12 text-center">Made by Victor Häggqvist</div>
-        {#<div class="col-md-4"></div>#}
-        {#<div class="col-md-4"></div>#}
       </div>
-
     </footer>
 
   </div><!-- /.container -->
 
 {#<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>#}
-<script>window.jQuery || document.write('<script src="dist/jquery.js"><\/script>')</script>
-<script src="dist/bootstrap.js"></script>
+{#<script>window.jQuery || document.write('<script src="dist/jquery.js"><\/script>')</script>#}
+{#<script src="dist/bootstrap.js"></script>#}
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 {#<script>#}
