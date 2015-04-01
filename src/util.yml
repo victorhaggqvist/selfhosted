@@ -17,3 +17,9 @@ apps:
       desc: Cloud Sync
       oss: GPL
       cost: 0
+
+    - name: Tiny Tiny RSS
+      url: http://tt-rss.org/
+      desc: Feed reader and aggregator
+      oss: GPL
+      cost: 0
