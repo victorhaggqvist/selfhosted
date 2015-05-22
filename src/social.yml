@@ -11,3 +11,9 @@ apps:
       desc: Audio/video IM platform
       oss: LGPL
       cost: 0
+
+    - name: Mumble
+      url: http://mumble.info
+      desc: Low-latency, high quality voice chat
+      oss: C
+      cost: 0
