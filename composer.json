@@ -4,6 +4,9 @@
         "twig/twig": "~1.18",
         "symfony/yaml": "3.0.*@dev"
     },
+    "require-dev": {
+        "phpunit/phpunit": "4.7.*@dev"
+    },
     "authors": [
         {
             "name": "Victor Häggqvist",

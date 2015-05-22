@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'selfont';
-  src: url('../font/selfont.eot?75009243');
-  src: url('../font/selfont.eot?75009243#iefix') format('embedded-opentype'),
-       url('../font/selfont.woff?75009243') format('woff'),
-       url('../font/selfont.ttf?75009243') format('truetype'),
-       url('../font/selfont.svg?75009243#selfont') format('svg');
+  src: url('../font/selfont.eot?87767027');
+  src: url('../font/selfont.eot?87767027#iefix') format('embedded-opentype'),
+       url('../font/selfont.woff?87767027') format('woff'),
+       url('../font/selfont.ttf?87767027') format('truetype'),
+       url('../font/selfont.svg?87767027#selfont') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -14,7 +14,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'selfont';
-    src: url('../font/selfont.svg?75009243#selfont') format('svg');
+    src: url('../font/selfont.svg?87767027#selfont') format('svg');
   }
 }
 */
@@ -35,7 +35,7 @@
   /* For safety - reset parent styles, that can break glyph codes*/
   font-variant: normal;
   text-transform: none;
-     
+ 
   /* fix buttons height, for twitter bootstrap */
   line-height: 1em;
  
@@ -46,13 +46,19 @@
   /* you can be more comfortable with increased icons size */
   /* font-size: 120%; */
  
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
-.icon-money:before { content: '\e800'; } /* '' */
-.icon-github-circled:before { content: '\e801'; } /* '' */
+.icon-key:before { content: '\e800'; } /* '' */
+.icon-leaf:before { content: '\e801'; } /* '' */
 .icon-wrench:before { content: '\e802'; } /* '' */
-.icon-ellipsis:before { content: '\e803'; } /* '' */
+.icon-lock:before { content: '\e803'; } /* '' */
 .icon-users:before { content: '\e804'; } /* '' */
 .icon-minus:before { content: '\e805'; } /* '' */
+.icon-github-circled:before { content: '\e806'; } /* '' */
+.icon-money:before { content: '\e807'; } /* '' */

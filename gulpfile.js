@@ -30,16 +30,12 @@ gulp.task('watch', function () {
   gulp.watch(['./style/*.scss'],['style']);
 });
 
-gulp.task('font', function () {
-  return gulp.src('fontello/**/*').pipe(gulp.dest('./dist'));
-});
-
 gulp.task('deploy', function () {
   return gulp.src('./dist/**/*')
     .pipe(deploy(options));
 });
 
-gulp.task('index', ['style','js','font'], function () {
+gulp.task('index', ['style','js'], function () {
   return gulp.src('./dist/index.html')
     .pipe(htmlreplace({
       'css': ['css/bootstrap.css','css/selfont.css']

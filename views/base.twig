@@ -72,8 +72,10 @@
               <td>{{ a.desc }}</td>
               <td><a href="{{ a.url }}">{{ a.url }}</a></td>
 
-              {% if not a.oss %}
-                <td>X</td>
+              {% if a.oss == 'C' %}
+                <td><abbr title="Custom"><i class="icon-users" aria-label="Custom license"></i></abbr></td>
+              {% elseif not a.oss %}
+                <td><abbr title="No license available"><i class="icon-lock" aria-label="No license available"></i></abbr></td>
               {% else %}
                 <td>{{ a.oss }}</td>
               {% endif %}
@@ -82,11 +84,11 @@
                 {% if a.cost == 0 %}
                   <abbr title="Free"><i class="icon-leaf"></i></abbr>
                 {% elseif a.cost == 1 %}
-                  <abbr title="Freemium"><i class="icon-key" aria-hidden="true"></i></abbr>
+                  <abbr title="Freemium"><i class="icon-key" aria-label="Freemium"></i></abbr>
                 {% elseif a.cost == 2 %}
-                  <abbr title="Paid"><i class="icon-money"></i></abbr>
+                  <abbr title="Paid"><i class="icon-money" aria-label="Paid"></i></abbr>
                 {% else %}
-                  <abbr title="Paid"><i class="icon-money"></i></abbr>
+                  <abbr title="Paid"><i class="icon-money" aria-label="Paid"></i></abbr>
                 {% endif %}
               </td>
             </tr>
@@ -110,7 +112,7 @@
       </div>
       <hr>
       <div class="row">
-        <div class="col-md-12 text-center">Made by Victor Häggqvist</div>
+        <div class="col-md-12 text-center">Made by <a href="https://victorhaggqvist.com/">Victor Häggqvist</a></div>
       </div>
     </footer>
 
@@ -128,6 +130,6 @@
     {#e.src='//www.google-analytics.com/analytics.js';#}
     {#r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));#}
   {#ga('create','UA-XXXXX-X','auto');ga('send','pageview');#}
-{#</script>#}
+{# </script> #}
 </body>
 </html>
