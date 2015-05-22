@@ -41,7 +41,7 @@ apps:
       desc: A collaborative text editor
       oss: GPL
       cost: 0
-    
+
     - name: AeroFS
       url: https://www.aerofs.com/
       desc: Private Cloud
