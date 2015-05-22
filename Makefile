@@ -48,3 +48,6 @@ deploy: make
 	git commit -m "Deploy of ${CURRENTHASH}"; \
 	git push "git@github.com:victorhaggqvist/selfhosted.git" master:gh-pages --force && \
 	rm -rf .git
+
+test:
+	php vendor/bin/phpunit -c phpunit.xml.dist
