@@ -47,3 +47,9 @@ apps:
       desc: Private Cloud
       oss: # fix padlock icon
       cost: 1
+
+    - name: wallabag
+      url: https://www.wallabag.org/
+      desc: Application for saving web pages
+      oss: MIT
+      cost: 0
