@@ -53,3 +53,9 @@ apps:
       desc: Application for saving web pages
       oss: MIT
       cost: 0
+
+    - name: selfoss
+      url: http://selfoss.aditu.de/
+      desc: Multipurpose rss reader
+      oss: GPLv3
+      cost: 0
