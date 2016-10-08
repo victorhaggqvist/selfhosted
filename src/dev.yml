@@ -35,3 +35,9 @@ apps:
       url: https://www.dreamfactory.com/
       oss: AL
       cost: 0
+      
+    - name: CoderVault
+      desc: Snippet Manager
+      url: https://github.com/codervault/codervault
+      oss: MIT
+      cost: 0
