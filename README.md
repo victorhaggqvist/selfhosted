@@ -1,3 +1,8 @@
+# Retired
+Consider this list retired in favor if https://github.com/Kickball/awesome-selfhosted (which contains way more stuff already).
+
+---
+
 # Selfhosted
 
 A list of applications that are made to be selfhosted replacements of centralized services.
