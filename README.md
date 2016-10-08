@@ -1,5 +1,5 @@
 # Retired
-Consider this list retired in favor if https://github.com/Kickball/awesome-selfhosted (which contains way more stuff already).
+Consider this list retired in favor of https://github.com/Kickball/awesome-selfhosted (which contains way more stuff already).
 
 ---
 
